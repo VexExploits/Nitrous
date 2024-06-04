@@ -3,7 +3,7 @@
 
 /* Add this section to include the custom cursor */
 body {
-    cursor: url('chromehearts.cur'), auto;
+   
 }
 
 ::-webkit-scrollbar {
