@@ -3,7 +3,7 @@
 
 /* Add this section to include the custom cursor */
 body {
-   
+    cursor: url('chromehearts.cur'), auto;
 }
 
 ::-webkit-scrollbar {
@@ -89,6 +89,26 @@ body {
 .content {
     max-width: 70rem;
     margin-inline: auto;
+}
+
+.alert-box {
+	background-color: #353534;
+	color: #f8f3f3;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 13px 16px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.alert-box .badge {
+	background-color: #6b4882;
+	border-radius: 3px;
+	color: #fff;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 3px 5px 3px 4px;
+	font-weight:bold;
+	text-transform: uppercase;
 }
 
 .miAuto {
